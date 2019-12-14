@@ -10,7 +10,7 @@ def my_collect(i)
   new_array = []
   counter = 0 
   while counter < self.length 
-  new_array << yield i[index]
+  new_array << yield 
   counter += 1 
   end #while
 end 
