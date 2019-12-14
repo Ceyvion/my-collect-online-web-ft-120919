@@ -8,10 +8,8 @@
 
 def my_collect(array)
   index = 0 
-  
-  new_array = []
-  counter = 0 
-  while counter < array.length 
+  while counter < array.length
+  new_array = 
   new_array << yield array[counter]
   counter += 1 
   end #while
