@@ -20,8 +20,8 @@ def my_collect(array)
   new_array
 end 
 
-my_collect(array) do 
-  |upcase| i.upcase 
-end 
+# my_collect(array) do 
+#   |upcase| i.upcase 
+# end 
 
 
