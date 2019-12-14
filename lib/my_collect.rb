@@ -7,6 +7,8 @@
 
 
 def my_collect(array)
+  index = 0 
+  
   new_array = []
   counter = 0 
   while counter < array.length 
