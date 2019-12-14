@@ -6,15 +6,15 @@
 
 
 
-def my_collect(i)
+def my_collect(array)
   new_array = []
   counter = 0 
   while counter < self.length 
-  new_array << yield(i)
+  new_array << yield array 
   counter += 1 
   end 
 end 
 
-my_collect(self) { |upcase| self.upcase }
+my_collect(array) { |upcase| array.upcase }
 
 
