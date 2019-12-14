@@ -12,8 +12,8 @@ def my_collect(array)
   
   
   while index < array.length
-  new_array << yield(array[counter])
-  index += 1 
+    new_array << yield(array[index])
+    index += 1 
   end #while
   
   
