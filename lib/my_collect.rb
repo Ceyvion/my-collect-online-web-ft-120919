@@ -13,6 +13,7 @@ def my_collect(array)
   new_array << yield array[index]
   counter += 1 
 end #while
+my_collect(array)
 end #def 
 
 my_collect(array) { |upcase| array.upcase }
