@@ -10,12 +10,11 @@ def my_collect(array)
   index = 0 
   new_array = []
   while index < array.length
-  new_array << yield array[counter]
-  counter += 1 
+  new_array << yield(array[counter])
+  index += 1 
   end #while
+  new_array
 end 
-my_collect(i)
-
 
 my_collect(array) do 
   |upcase| puts i.upcase 
