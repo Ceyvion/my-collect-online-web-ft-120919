@@ -10,10 +10,11 @@ def my_collect(array)
   new_array = []
   counter = 0 
   while counter < self.length 
-  new_array << yield array 
+  new_array << yield array[index] 
   counter += 1 
   end 
-end 
+end #while
+end #def 
 
 my_collect(array) { |upcase| array.upcase }
 
