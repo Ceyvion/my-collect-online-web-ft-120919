@@ -17,6 +17,6 @@ end
 my_collect(i)
 
 
-my_collect(i) { |upcase| puts i.upcase }
+my_collect(i) do |upcase| puts i.upcase end 
 
 
