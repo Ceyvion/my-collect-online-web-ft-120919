@@ -15,7 +15,7 @@ def my_collect(i)
   end #while
 end 
 my_collect(i)
-end #def 
+
 
 my_collect(i) { |upcase| i.upcase }
 
