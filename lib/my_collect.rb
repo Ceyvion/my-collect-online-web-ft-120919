@@ -15,6 +15,6 @@ def my_collect(i)
   end 
 end 
 
-my_collect { |upcase| do i.upcase }
+my_collect { |upcase| self.upcase }
 
 
