@@ -17,7 +17,7 @@ def my_collect(array)
 end 
 
 my_collect(array) do 
-  |upcase| puts i.upcase 
+  |upcase| i.upcase 
 end 
 
 
